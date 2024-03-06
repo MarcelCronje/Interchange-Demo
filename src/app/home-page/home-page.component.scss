@@ -1,0 +1,150 @@
+@import '../variables.scss';
+
+.home-container {
+    text-align: center;
+    padding: 3em 0em 1.7em 0em; /* Optional: Add padding for better spacing */
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-container h1 {
+    font-size: 28px;
+    color: $primary-color;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .home-container p {
+    font-size: 16px;
+    color: $paragraph-primary-color;
+  }
+
+  .Home-Icons-Parent {
+    display: flex;
+  }
+
+  .Icon-Img {
+    width: 5em;
+  }
+
+  .Grid-Parent {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .Grid-Spacing {
+    width: 100%;
+  }
+  
+  .Status-Info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Status-Parent {
+    border: 2px solid $secondary-background-color;
+    border-radius: 20px;
+  }
+  
+  h2 {
+    color: $secondary-color;
+    font-size: 1rem;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .Status-Godfather {
+    padding: 1em;
+  }
+
+  .Status-Icon {
+    width: 5em;
+  }
+  
+  .button-2 {
+    background-color: $Third-background-color;
+    color: $secondary-color;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .Status-Info-Text-Button-Parent {
+    padding-right: 1em;
+  }
+
+  // Progress-Bar
+
+  .Progress-Bar-Parent {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    padding: 0em 1em 1em 1em;
+  }
+
+  .Progress-Status-Parent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Progress-Status-Text {
+    color: $Third-color;
+  }
+
+  .progress-line {
+    background-color: $secondary-background-color;
+    width: 75%;
+    height: 4px;
+    position: relative;
+    top: -75px;
+    transition: width 0.5s ease-in-out;
+    margin: 0 auto;
+  }
+
+  .Orange-Status {
+    background-color: $secondary-status-background-color;
+    border-radius: 2em;
+    width: 1.5em;
+    height: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Silver-Status {
+    background-color: $primary-status-background-color;
+    border-radius: 2em;
+    width: 1.5em;
+    height: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Gold-Status {
+    background-color: $Third-status-background-color;
+    border-radius: 2em;
+    width: 1.5em;
+    height: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Platinum-Status {
+    background-color: $Fourth-status-background-color;
+    border-radius: 2em;
+    width: 1.5em;
+    height: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+

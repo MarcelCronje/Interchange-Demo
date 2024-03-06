@@ -1,0 +1,43 @@
+@import '../variables.scss';
+
+.orange-holiday-container {
+    padding: 4.2em 3em 4.7em 3em; /* Optional: Add padding for better spacing */
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: $secondary-color;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+  }
+  
+  p {
+    color: $paragraph-primary-color;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .item {
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .plan-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,28 @@
+<div class="login-container">
+    <div class="item">
+      <img src="../../assets/svg's/logointer 1.svg" alt="African Theme Image 1">
+    </div>
+    <h2>Login</h2>
+
+    <!-- (submit)="onSubmit()" -->
+    <form >
+      <label class="Input-Lables" for="cellNumber">Cell Number <span class="Required">*</span></label>
+      <input type="tel" id="cellNumber" required>
+
+      <label class="Input-Lables" for="password">Password <span class="Required">*</span></label>
+      <!-- [(ngModel)]="password" -->
+      <input type="password" id="password"  required>
+      
+      <div class="Buttons-Parent">
+        <div class="button-1-parent" routerLink="/">
+          <button class="button-1" type="submit">CONTINUE</button>
+        </div>
+        <div routerLink="/register">
+          <button class="button-2" type="submit">REGISTER</button>
+        </div>
+        <div routerLink="/splashScreen" class="button-2-parent">
+          <button class="button-2" type="submit">BACK</button>
+        </div>
+      </div>
+    </form>
+</div>

@@ -1,0 +1,150 @@
+@import '../variables.scss';
+
+.newsfeed-container {
+    padding: 6.2em 0em 4.7em 0em; /* Optional: Add padding for better spacing */
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .newsfeed-container h2 {
+    text-align: center;
+  }
+   
+  .post {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .item {
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+  h4 {
+    color: $secondary-color;
+    margin: 0;
+  }
+
+  p {
+    color: $paragraph-secondary-color;
+    margin: 0.5em 0em 0em 0em;
+  }
+
+  .Newsfeed-Info-Parent {
+    display: flex;
+    padding: 0.7em 0.7em 0.7em 0.7em;
+  }
+
+  .Info-Section {
+    padding: 0em 0.7em 0em 0.7em;
+  }
+  
+  /* youtube mobile second top header with tags  */
+ 
+.Mobile-YT-Second-Nav-Header {
+  position: fixed;
+  top: 47px;
+  -webkit-transition: -webkit-transform 225ms cubic-bezier(0,0,.2,1);
+  transition: -webkit-transform 225ms cubic-bezier(0,0,.2,1);
+  transition: transform 225ms cubic-bezier(0,0,.2,1);
+  transition: transform 225ms cubic-bezier(0,0,.2,1),-webkit-transform 225ms cubic-bezier(0,0,.2,1);
+  -webkit-transition-property: all;
+  transition-property: all;
+  background-color: $primary-background-color;
+  width: 100%;
+  z-index: 999;
+  height: 48px;
+  border-top: solid $Third-background-color 1px;
+  border-bottom: solid $Third-background-color 1px;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+/* Hide scrollbar for IE, Edge and Firefox */
+.YT-categories-scroll {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 48px; 
+  display: flex;
+  align-items: center;
+}
+
+/* Chrome, Edge, and Safari */
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.YT-categories-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.YT-categories-scroll-Filter-Parent {
+  display: flex;
+  vertical-align: text-top;
+  height: 32px;
+  margin: 0px 12px 0px 12px
+}
+
+.YT-categories-scroll-Filter-Child {
+  background-color: $secondary-background-color;
+  // background-color: #e30101;
+  border-radius: 8px;
+  border: 0;
+  padding: 0 12px 0 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.YT-categories-scroll-Filter-Icon {
+  width: 20px;
+  height: 20px;
+  padding-right: 4px;
+}
+
+.YT-categories-scroll-Filter-Text {
+  color: $secondary-color;
+}
+
+
+.YT-categories-scroll-Divider {
+  width: 1px;
+  height: 32px;
+  background-color: $Third-background-color;
+  padding: 0.5px;
+}
+
+
+.YT-categories-scroll-Categorie-Parent {
+  // padding: 8px 0;
+  display: flex;
+  vertical-align: text-top;
+  height: 32px;
+  margin: 0px 0px 0px 12px;
+}
+
+.YT-categories-scroll-Categorie-Child {
+  background-color: $secondary-background-color;
+  border-radius: 8px;
+  border: 0;
+  padding: 0 12px 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+.YT-categories-scroll-Categorie-Text {
+  color: $secondary-color;
+}
+
+/* youtube mobile second top header with tags  */

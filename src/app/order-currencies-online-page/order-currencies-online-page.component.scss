@@ -1,0 +1,22 @@
+/* Set the HTML and body height to 100% to cover the entire viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Create a container that fills the entire screen */
+.iframe-container {
+  width: 100%;
+  height: 85%;
+  position: absolute;
+  top: 48px;
+  left: 0;
+}
+
+/* Make the iframe fill the entire container */
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}

@@ -1,0 +1,52 @@
+<!-- youtube mobile top header with search -->
+
+<div class="Mobile-YT-Nav-Header">
+  
+    <!-- (click)="openMenu()" [matMenuTriggerFor]="cat.childMenu2" *ngIf="showBottomNavIcons" -->
+    <div class="YT-categories-scroll-Filter-Parent" routerLink="/services"> 
+      <div class="YT-categories-scroll-Filter-Child">
+          <!-- <img src="../../assets/svg's/" alt="Filter Icon" class="YT-categories-scroll-Filter-Icon"> -->
+          <span class="YT-categories-scroll-Filter-Text">Services</span>
+      </div>
+  </div>
+  
+  <!-- (click)="openMenu()" [matMenuTriggerFor]="cat.childMenu2" *ngIf="isOther()" -->
+  <!-- <div class="YT-categories-scroll-Filter-Parent" style="margin: 0px 12px 0px 0px;" > 
+    <div class="YT-categories-scroll-Filter-Child" style="padding: 0 6px 0 6px;">
+        <img src="../../assets/new/filter-svgrepo-com.svg" alt="Filter Icon" class="YT-categories-scroll-Filter-Icon" style="padding: 0;">
+        
+    </div>
+  </div> -->
+  
+  <div class="YT-categories-scroll-Divider"></div> 
+    <!-- [routerLink]="['/']" -->
+    <div class="Mobile-YT-Nav-Logo-Parent" routerLink="/">
+    <div class="Mobile-YT-Nav-Logo-Child">
+        <img src="../../assets/svg's/logointer 1.svg" alt="Shop Logo" class="Mobile-YT-Nav-Logo-Image">
+    </div>
+    </div>
+  
+    <!-- (click)="openNewSearch(contentSearch)" -->
+    <div class="Mobile-YT-Nav-Search-Icon-Parent" routerLink="/newsfeed">
+    <div class="Mobile-YT-Nav-Search-Icon-Child">
+        <img src="../../assets/svg's/notification-svgrepo-com (2) 2.svg" alt="Search Icon" class="Mobile-YT-Nav-Search-Icon-Image">
+    </div>
+    </div>
+  
+    <!-- *ngIf="global.user != null" (click)="myaccount()" -->
+    <div class="Mobile-YT-Nav-Profile-Icon-Parent" routerLink="/profile">
+    <div class="Mobile-YT-Nav-Profile-Icon-Child">
+        <img src="../../assets/svg's/user-svgrepo-com.svg" alt="User Profile Image" class="Mobile-YT-Nav-Profile-Icon-Image">
+    </div>
+    </div>
+  
+    <!-- *ngIf="global.user == null" (click)="open(content)" -->
+    <!-- <div class="Mobile-YT-Nav-Profile-Icon-Parent" >
+    <div class="Mobile-YT-Nav-Profile-Icon-Child">
+        <img src="../../assets/new/user-svgrepo-com.svg" alt="User Profile Image" class="Mobile-YT-Nav-Profile-Icon-Image">
+    </div>
+    </div> -->
+  
+  </div>
+  
+  <!-- youtube mobile top header with search/ -->

@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'app/variables.scss';
+ 
+
+body {
+    background-color: $primary-background-color; /* Replace with the desired gray color */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    font-family: 'Roboto', sans-serif;
+  }

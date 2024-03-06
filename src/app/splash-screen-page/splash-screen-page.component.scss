@@ -1,0 +1,64 @@
+@import '../variables.scss';
+
+.splash-container {
+    padding: 3em 1.7em 1.7em 1.7em; /* Optional: Add padding for better spacing */
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: $primary-background-color;
+  }
+  
+  .splash-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .splash-content h1 {
+    font-size: 28px;
+  }
+  
+  .splash-content p {
+    font-size: 16px;
+  }
+
+  .Buttons-Parent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .button-1 {
+    padding: 10px 20px;
+    width: 100%;
+    background-color: $secondary-background-color;
+    color: $secondary-color;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button-2 {
+    padding: 10px 20px;
+    width: 100%;
+    background-color: $Third-background-color;
+    color: $secondary-color;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button-1-parent {
+    padding-bottom: 0.2em;
+  }
+
+  .button-2-parent {
+    padding-top: 0.3em;
+  }
+
+  .item {
+    padding-bottom: 14em;
+  }

@@ -1,0 +1,78 @@
+@import '../variables.scss';
+
+.login-container {
+    padding: 3em 0.7em 2.7em 0.7em; /* Optional: Add padding for better spacing */
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .login-container h2 {
+    text-align: center;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container label {
+    margin-top: 10px;
+  }
+  
+  .login-container input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid $secondary-background-color;
+    border-radius: 3px;
+    background-color: transparent;
+  }
+  
+  .Buttons-Parent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .button-1 {
+    padding: 10px 20px;
+    width: 100%;
+    background-color: $secondary-background-color;
+    color: $secondary-color;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button-2 {
+    padding: 10px 20px;
+    width: 100%;
+    background-color: $Third-background-color;
+    color: $secondary-color;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button-1-parent {
+    padding-bottom: 0.2em;
+  }
+
+  .button-2-parent {
+    padding-top: 0.2em;
+  }
+
+  .item {
+    text-align: center;
+  }
+
+  .Input-Lables {
+    color: $secondary-color;
+  }
+
+  h2 {
+    color: $secondary-color;
+  }
+
+  .Required {
+    color: $primary-color;
+  }

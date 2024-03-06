@@ -1,0 +1,90 @@
+@import '../variables.scss';
+
+  .register-container {
+    padding: 3em 0.7em 2.7em 0.7em; /* Optional: Add padding for better spacing */
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .register-container h2 {
+    text-align: center;
+  }
+  
+  .register-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-container label {
+    margin-top: 10px;
+  }
+  
+  .register-container input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid $secondary-background-color;
+    border-radius: 3px;
+    background-color: transparent;
+  }
+  
+  .Buttons-Parent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .button-1 {
+    padding: 10px 20px;
+    width: 100%;
+    background-color: $secondary-background-color;
+    color: $secondary-color;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button-2 {
+    padding: 10px 20px;
+    width: 100%;
+    background-color: $Third-background-color;
+    color: $secondary-color;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button-1-parent {
+    padding-bottom: 0.2em;
+  }
+
+  .button-2-parent {
+    padding-top: 0.3em;
+  }
+
+  .item {
+    text-align: center;
+  }
+
+  .Input-Lables {
+    color: $secondary-color;
+  }
+
+  .Checkbox-Lables {
+    color: $secondary-color;
+  }
+
+  .Link-Lable {
+    color: $paragraph-secondary-color;
+  }
+
+  h2 {
+    color: $secondary-color;
+  }
+
+  h3 {
+    color: $secondary-color;
+  }
+
+  .Required {
+    color: $primary-color;
+  }

@@ -1,0 +1,51 @@
+<!-- youtube mobile bottom nav with icons -->
+
+<!-- *ngIf="showBottomNavIcons" -->
+<div class="Youtube-Mobile-Bottom-Nav-With-Icons" >
+  
+    <!-- [routerLink]="['/']" -->
+    <div class="Youtube-Mobile-Bottom-Nav-With-Icons-Home-Parent" routerLink="/">
+    <div class="Youtube-Mobile-Bottom-Nav-With-Icons-Home-Child">
+        <img src="../../assets/svg's/home-svgrepo-com.svg" alt="Home Icon" class="Youtube-Mobile-Bottom-Nav-With-Icons-Home-Icon" style="width: 20px;
+            height: 20px;">
+        <span class="Youtube-Mobile-Bottom-Nav-With-Icons-Home-Text">Home</span>
+    </div>
+    </div>
+   
+    <div class="Youtube-Mobile-Bottom-Nav-With-Icons-Chat-Parent">
+    <div class="Youtube-Mobile-Bottom-Nav-With-Icons-Chat-Child">
+        <img src="../../assets/svg's/envelope-svgrepo-com 1.svg" alt="Chat Icon" class="Youtube-Mobile-Bottom-Nav-With-Icons-Chat-Icon">
+        <span class="Youtube-Mobile-Bottom-Nav-With-Icons-Chat-Text">Contact</span>
+    </div>
+    </div>
+  
+    <!-- (click)="toggleMobileBottomNavMenu()" -->
+    <div class="Youtube-Mobile-Bottom-Nav-With-Icons-Plus-Parent" >
+    <div class="Youtube-Mobile-Bottom-Nav-With-Icons-Plus-Child">
+        <img src="../../assets/svg's/plus-svgrepo-com.svg" alt="Plus Icon" class="Youtube-Mobile-Bottom-Nav-With-Icons-Plus-Icon">
+        <span></span>
+    </div>
+    </div>
+  
+    <!-- *ngIf="!global.user" (click)="OpenMobileLogin(MobileLogin)" -->
+    <div class="Youtube-Mobile-Bottom-Nav-With-Icons-Lists-Parent" routerLink="/mapListView">
+    <div class="Youtube-Mobile-Bottom-Nav-With-Icons-Lists-Child">
+        <img src="../../assets/svg's/Vector.svg" alt="Wishlist Icon" class="Youtube-Mobile-Bottom-Nav-With-Icons-Lists-Icon">
+        <span class="Youtube-Mobile-Bottom-Nav-With-Icons-Lists-Text">Locations</span>
+    </div>
+    </div>
+  
+    <!-- (click)="open2(content2)" -->
+    <div class="Youtube-Mobile-Bottom-Nav-With-Icons-Cart-Parent" routerLink="/referer">
+    <div class="Youtube-Mobile-Bottom-Nav-With-Icons-Cart-Child">
+
+        <!-- *ngIf="this.global.basket.length == 0" -->
+        <img  src="../../assets/svg's/loudspeaker-6-svgrepo-com 1.svg" alt="Shopping Cart Icon" class="Youtube-Mobile-Bottom-Nav-With-Icons-Cart-Icon">
+      
+        <span class="Youtube-Mobile-Bottom-Nav-With-Icons-Cart-Text">Referer</span>
+    </div>
+    </div>
+  
+  </div>
+  
+  <!-- youtube mobile bottom nav with icons -->

@@ -1,0 +1,198 @@
+@import '../variables.scss';
+
+.spin-to-win-container {
+    padding: 8em 0.7em 2.7em 0.7em; /* Optional: Add padding for better spacing */
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .win-modal,
+  .lose-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-size: 24px;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .win-modal p,
+  .lose-modal p {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .win-modal.active,
+  .lose-modal.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .spin-to-win-container h2 {
+    text-align: center;
+    padding-bottom: 2em;
+  }
+  
+  .spin-to-win-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .spin-to-win-container label {
+    margin-top: 10px;
+  }
+  
+  .spin-to-win-container input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid $secondary-background-color;
+    border-radius: 3px;
+    background-color: transparent;
+  }
+  
+  .Buttons-Parent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .button-1 {
+    padding: 10px 20px;
+    width: 100%;
+    background-color: $secondary-background-color;
+    color: $secondary-color;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button-2 {
+    padding: 10px 20px;
+    width: 100%;
+    background-color: $Third-background-color;
+    color: $secondary-color;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button-1-parent {
+    padding-bottom: 0.2em;
+  }
+
+  .button-2-parent {
+    padding-top: 0.3em;
+  }
+
+  .item {
+    text-align: center;
+  }
+
+  .Input-Lables {
+    color: $secondary-color;
+  }
+
+  .Checkbox-Lables {
+    color: $secondary-color;
+  }
+
+  .Link-Lable {
+    color: $paragraph-secondary-color;
+  }
+
+  h2 {
+    color: $secondary-color;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 3em;
+  }
+
+  h3 {
+    color: $secondary-color;
+  }
+
+  .Required {
+    color: $primary-color;
+  }
+
+  /* better-luck-modal */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: $primary-background-color;
+  width: 100%;
+  height: 100%;
+  padding: 4.8em 3em 9.7em 3em; /* Optional: Add padding for better spacing */
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+  padding-top: 5em;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// .spinner {
+//   animation: spin 2s linear infinite;
+  /* Add styles for your spinner here */
+  // background-color: orange;
+// }
+
+// @keyframes spin {
+//   0% {
+//     transform: rotate(0deg);
+//   }
+//   100% {
+//     transform: rotate(360deg);
+//   }
+// }
+
+.loading-dots {
+  animation: loadingAnimation 1.5s infinite;
+  opacity: 0; /* Initially hide the dots */
+}
+
+@keyframes loadingAnimation {
+  0%, 20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

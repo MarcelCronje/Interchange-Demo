@@ -1,0 +1,85 @@
+@import '../variables.scss';
+
+.referer-container {
+    padding: 4em 1.7em 4.7em 1.7em; /* Optional: Add padding for better spacing */
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: $secondary-color;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  p {
+    color: $paragraph-primary-color;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .item {
+    text-align: center;
+    padding: 1.5em;
+  }
+  
+  img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .Buttons-Parent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-1 {
+    padding: 10px 20px;
+    width: 100%;
+    background-color: $secondary-background-color;
+    color: $secondary-color;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button-2 {
+    padding: 10px 20px;
+    width: 100%;
+    background-color: $Third-background-color;
+    color: $secondary-color;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button-1-parent {
+    padding-bottom: 0.2em;
+  }
+
+  .button-2-parent {
+    padding-top: 0.3em;
+  }
+ 
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+   

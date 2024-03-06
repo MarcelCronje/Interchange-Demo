@@ -1,0 +1,42 @@
+@import '../variables.scss';
+
+.thema-africain-container {
+    padding: 3em 0.7em 1.7em 0.7em; /* Optional: Add padding for better spacing */
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: $primary-color;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  p {
+    color: $paragraph-primary-color;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .item {
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  p {
+    margin-top: 10px;
+  }

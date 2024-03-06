@@ -1,0 +1,26 @@
+@import '../variables.scss';
+
+.profile-container {
+  padding: 3em 0em 1.7em 0em; /* Optional: Add padding for better spacing */
+  max-width: 600px;
+  margin: 0 auto;
+  }
+  
+  .profile-container h2 {
+    color: $secondary-color;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .profile-container p {
+    color: $paragraph-secondary-color;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .Selected-Tab {
+    color: $paragraph-third-color !important;
+  }

@@ -1,0 +1,111 @@
+@import '../variables.scss';
+  
+  /* youtube mobile top header with search  */
+
+  .Mobile-YT-Nav-Header {
+    background-color: $primary-background-color;
+    border-bottom: solid 2px $Third-background-color;
+    position: fixed;
+    top: -0.6px;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+  }
+
+  .Mobile-YT-Nav-Logo-Parent {
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Mobile-YT-Nav-Logo-Child {
+    width: 6em;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Mobile-YT-Nav-Logo-Image {
+    width: 4em; 
+    height: 100%;
+  }
+
+
+  .Mobile-YT-Nav-Search-Icon-Parent {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Mobile-YT-Nav-Search-Icon-Child {
+    position: relative; 
+    width: 20px; 
+    height: 20px;
+  }
+
+  .Mobile-YT-Nav-Search-Icon-Image {
+    width:100%; 
+    height: 100%;
+  }
+
+
+  .Mobile-YT-Nav-Profile-Icon-Parent {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Mobile-YT-Nav-Profile-Icon-Child {
+    position: relative; 
+    width: 24px; 
+    height: 24px;
+  }
+
+  .Mobile-YT-Nav-Profile-Icon-Image {
+    width:100%; 
+    height: 100%; 
+    border-radius: 25em;
+  }
+
+  .YT-categories-scroll-Filter-Parent {
+    display: flex;
+    vertical-align: text-top;
+    height: 32px;
+    margin: 0px 12px 0px 12px
+  }
+  
+  .YT-categories-scroll-Filter-Child {
+    background-color: $secondary-background-color;
+    // background-color: #e30101;
+    border-radius: 8px;
+    border: 0;
+    padding: 0 6px 0 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .YT-categories-scroll-Filter-Icon {
+    width: 20px;
+    height: 20px;
+    padding-right: 4px;
+  }
+  
+  .YT-categories-scroll-Filter-Text {
+    color: $secondary-color;
+  }
+  
+  
+  .YT-categories-scroll-Divider {
+    width: 1px;
+    height: 32px;
+    background-color: $Third-background-color;
+    padding: 0.5px;
+  }
+
+/* youtube mobile top header with search  */

@@ -1,0 +1,233 @@
+/* youtube mobile bottom nav with icons  */
+
+.Youtube-Mobile-Bottom-Nav-With-Icons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  padding: 0 env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  z-index: 999;
+  height: 48px;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  background: #000000;
+  color: #0f0f0f;
+  font-size: 1.1rem;
+}
+
+/* .Home */
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Home-Parent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0%;
+  flex: 1 1 0%;
+  min-width: 0;
+}
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Home-Child {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0%;
+  flex: 1 1 0%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Home-Icon {
+  width: 20px;
+  height: 20px;
+}
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Home-Text {
+  font-size: 0.7rem; 
+  color: #F08014;
+}
+
+/* .Chat */
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Chat-Parent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0%;
+  flex: 1 1 0%;
+  min-width: 0;
+}
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Chat-Child {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0%;
+  flex: 1 1 0%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Chat-Icon {
+  width: 20px;
+  height: 20px;
+}
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Chat-Text {
+  font-size: 0.7rem;  
+  color: #686870;
+}
+
+/* .Plus */
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Plus-Parent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0%;
+  flex: 1 1 0%;
+  min-width: 0;
+}
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Plus-Child {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0%;
+  flex: 1 1 0%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Plus-Icon {
+  width: 33px;
+  height: 33px;
+}
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Plus-Text {
+  font-size: 1rem; 
+  color: #686870;
+}
+
+/* .Lists */
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Lists-Parent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0%;
+  flex: 1 1 0%;
+  min-width: 0;
+}
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Lists-Child {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0%;
+  flex: 1 1 0%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Lists-Icon {
+  width: 20px;
+  height: 20px;
+}
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Lists-Text {
+  font-size: 0.7rem;  
+  color: #686870;
+}
+
+/* .Cart */
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Cart-Parent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0%;
+  flex: 1 1 0%;
+  min-width: 0;
+}
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Cart-Child {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0%;
+  flex: 1 1 0%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Cart-Icon {
+  width: 20px;
+  height: 20px;
+}
+
+.Youtube-Mobile-Bottom-Nav-With-Icons-Cart-Text {
+  font-size: 0.7rem; 
+  color: #686870;
+}
+
+/* youtube mobile bottom nav with icons  */
